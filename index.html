@@ -36,7 +36,7 @@
       var income = Math.floor(seconds * incomePerSecond);
 
       // Display the result in the element with id="ticker"
-      document.getElementById("ticker").innerHTML =  "<span class='dager'>" + days + "</span></br>Days of Human Rights Violations.</br> Illegal income since </br><a href='https://www.domstol.no/en/supremecourt/rulings/2021/supreme-court-civil-cases/hr-2021-1975-s/'>the Supreme Court Verdict:</a> </br> <span class='kroner'>" + income.toLocaleString('no-NO') + " NOK</span>";
+      document.getElementById("ticker").innerHTML =  "<span class='dager'>" + days + "</span></br>Days of Human Rights Violations.</br> Illegal income since </br><a href='https://www.domstol.no/en/supremecourt/rulings/2021/supreme-court-civil-cases/hr-2021-1975-s/'>the Supreme Court Verdict:</a> </br> <span class='kroner'>" + income.toLocaleString('no-NO') + " NOK</br><a href='https://twitter.com/FosenTicker'><img src='./images/Twitter.png' alt='Twitter logo' style='width:48px;height:48px;'></a></span>";
 
       // If the count down is finished, write some text
       if (distance < 0) {
