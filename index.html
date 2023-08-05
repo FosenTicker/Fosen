@@ -41,7 +41,7 @@
       var income = Math.floor(seconds * incomePerSecond);
 
       // Display the result in the element with id="ticker"
-      document.getElementById("ticker").innerHTML =  "<span class='dager'>" + days + "</span></br>Days of Human Rights Violations.</br> Illegal income since </br><a href='https://www.domstol.no/en/supremecourt/rulings/2021/supreme-court-civil-cases/hr-2021-1975-s/'>the Supreme Court Verdict:</a> </br> <span class='kroner'>" + income.toLocaleString('no-NO') + " NOK</br><a href='https://twitter.com/FosenTicker'><img src='./images/x.png' alt='X logo' style='width:48px;height:48px;'></a><a href='https://www.facebook.com/profile.php?id=100094893411310'><img src='./images/fb.png' alt='Facebook logo' style='width:48px;height:48px;'></a><a href='https://www.instagram.com/fosenticker/'><img src='./images/instagram.png' alt='Instagram logo' style='width:48px;height:48px;'></a></span>";
+      document.getElementById("ticker").innerHTML =  "<span class='dager'>" + days + "</span></br>Days of Human Rights Violations.</br> Illegal income since </br><a href='https://www.domstol.no/en/supremecourt/rulings/2021/supreme-court-civil-cases/hr-2021-1975-s/'>the Supreme Court Verdict:</a> </br> <span class='kroner'>" + income.toLocaleString('no-NO') + " NOK</br><a href='https://x.com/FosenTicker'><img src='./images/x.png' alt='X logo' style='width:48px;height:48px;'></a><a href='https://www.facebook.com/profile.php?id=100094893411310'><img src='./images/fb.png' alt='Facebook logo' style='width:48px;height:48px;'></a><a href='https://www.instagram.com/fosenticker/'><img src='./images/instagram.png' alt='Instagram logo' style='width:48px;height:48px;'></a></span>";
 
       // If the count down is finished, write some text
       if (distance < 0) {
