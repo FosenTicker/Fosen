@@ -39,6 +39,10 @@ body::after {
     font-size: calc(3vw + 3vh + 3vmin); /* adjust size as needed */
     font-weight: bold; /* make it bold, if you want */
 }
+.subtext {
+    font-size: 15px;
+    font-weight: bold;
+}
 a:link,
 a:visited {
     color: white;
