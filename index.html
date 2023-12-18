@@ -43,10 +43,10 @@
 
     <script>
     // Set the date from the day of the Supreme Court verdict in the Fosen case.
-    var countDate = Date.UTC(2021, 9, 11); // Months are 0-based in JavaScript, so October is 9
+    var countDate = Date.UTC(2023, 11, 18); // Months are 0-based in JavaScript, so October is 9
 
     // Daily income in NOK
-    var dailyIncome = 1400000;
+    var dailyIncome = 700000;
 
     // Income per second (daily income divided by number of seconds in a day)
     var incomePerSecond = dailyIncome / (24 * 60 * 60);
@@ -65,7 +65,7 @@
       var seconds = Math.floor(distance / 1000);
 
       // Calculate accumulated income
-      var income = Math.floor(seconds * incomePerSecond);
+      var income = Math.floor(1117439555+(seconds * incomePerSecond));
 
       // Display the result in the element with id="ticker"
       document.getElementById("ticker").innerHTML =  "<span class='dager'>" + days + "</span></br>Days of Human Rights Violations.</br> Illegal income since </br><a href='https://www.domstol.no/en/supremecourt/rulings/2021/supreme-court-civil-cases/hr-2021-1975-s/'>the Supreme Court Verdict:</a> </br> <span class='kroner'>" + income.toLocaleString('no-NO') + " NOK</br><a href='https://x.com/FosenTicker'><img src='./images/x.png' alt='X logo' style='width:48px;height:48px;'></a><a href='https://www.facebook.com/profile.php?id=100094893411310'><img src='./images/fb.png' alt='Facebook logo' style='width:48px;height:48px;'></a><a href='https://www.instagram.com/fosenticker/'><img src='./images/instagram.png' alt='Instagram logo' style='width:48px;height:48px;'></a><a href='https://www.youtube.com/@fosenticker'><img src='./images/YouTube_social.png' alt='YouTube logo' style='width:48px;height:48px;'></a><a href='https://www.tiktok.com/@fosenticker'><img src='./images/tiktok.png' alt='TikTok logo' style='width:48px;height:48px;'></a></span></br><span class='subtext'><a href='https://www.regjeringen.no/no/aktuelt/avtale-mellom-sor-fosen-sijte-og-fosen-vind/id3019277/'>There is now agreement between Fosen Vind and Sør-Fosen sijte.</a> Still no deal between Roan Vind and Nord Fosen siida so the ticker runs...</span>";
