@@ -32,7 +32,7 @@ body::after {
     width: 80%; /* restrict width to 80% of the viewport */
 }
 .dager {
-    font-size: calc(9vw + 9vh + 9vmin); /* adjust size as needed */
+    font-size: calc(7vw + 7vh + 7vmin); /* adjust size as needed */
     font-weight: bold; /* make it bold, if you want */
 }
 .kroner {
